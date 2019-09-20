@@ -1,0 +1,10 @@
+sudo pip install requests
+sudo apt-get install python-dev libffi-dev libssl-dev
+sudo pip install --upgrade ndg-httpsclient
+
+
+sudo apt-get install bluetooth
+sudo apt-get install python-bluez
+git clone https://github.com/ewenchou/bluetooth-proximity.git
+cd bluetooth-proximity
+sudo python setup.py install
